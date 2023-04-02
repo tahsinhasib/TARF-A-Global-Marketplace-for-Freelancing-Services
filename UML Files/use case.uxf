@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>160</x>
+      <y>80</y>
+      <w>385</w>
+      <h>525</h>
+    </coordinates>
+    <panel_attributes>TARF : A global marketplace for freelancing service
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>105</x>
+      <y>450</y>
+      <w>30</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Admin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>205</x>
+      <y>165</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Can login
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>225</x>
+      <y>215</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Add skills
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>225</x>
+      <y>280</y>
+      <w>50</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Choose 
+work
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>335</x>
+      <y>225</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Part time
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>90</x>
+      <y>150</y>
+      <w>40</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>User/
+Freelancer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>580</x>
+      <y>150</y>
+      <w>30</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>285</x>
+      <y>475</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Add features
+bg=BLUE
+fg=WHITE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>285</x>
+      <y>505</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Ban user
+bg=BLUE
+fg=WHITE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>435</x>
+      <y>280</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Look for 
+worker
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>435</x>
+      <y>310</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Hire worker
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>240</x>
+      <y>245</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Search 
+jobs
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>210</x>
+      <y>110</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Sign up
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>205</x>
+      <y>190</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Update profile
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>435</x>
+      <y>420</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Make feedback
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>435</x>
+      <y>345</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Can accept
+or reject bids
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>435</x>
+      <y>385</y>
+      <w>60</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Make payment
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>220</x>
+      <y>345</y>
+      <w>60</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Can bid on 
+a project
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>435</x>
+      <y>220</y>
+      <w>60</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Can make a
+project
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>435</x>
+      <y>250</y>
+      <w>60</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Can post jobs
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>440</x>
+      <y>455</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Can chat
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>280</x>
+      <y>440</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Upkeep System
+bg=BLUE
+fg=WHITE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>285</x>
+      <y>535</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Enhance
+security
+bg=BLUE
+fg=WHITE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>285</x>
+      <y>570</y>
+      <w>65</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Perform
+Backup
+bg=BLUE
+fg=WHITE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>95</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;170.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>115</y>
+      <w>100</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;90.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>95</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;170.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>115</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;210.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;240.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>115</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;210.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>225</x>
+      <y>310</y>
+      <w>50</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Recieve salary
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>335</x>
+      <y>250</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Full time
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>205</x>
+      <y>135</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Reset Pass
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>140</y>
+      <w>95</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;40.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>115</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;210.0;330.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>110</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;200.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>335</x>
+      <y>340</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Pay Pal
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>370</x>
+      <y>320</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Credit
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>335</x>
+      <y>305</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>DBBL
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>445</y>
+      <w>160</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;300.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>455</y>
+      <w>165</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;310.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>455</y>
+      <w>165</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;310.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>455</y>
+      <w>165</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;310.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>455</y>
+      <w>165</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;310.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>160</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;140.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>160</y>
+      <w>100</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;210.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>160</y>
+      <w>95</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;260.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>160</y>
+      <w>95</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;320.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>160</y>
+      <w>95</w>
+      <h>205</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;390.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>160</y>
+      <w>100</w>
+      <h>245</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;470.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>160</y>
+      <w>95</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;540.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>160</y>
+      <w>95</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;610.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>155</y>
+      <w>330</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;640.0;620.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>265</x>
+      <y>115</y>
+      <w>325</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;630.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>140</y>
+      <w>330</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;640.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>160</y>
+      <w>330</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;640.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>160</y>
+      <w>330</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;80.0;640.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>225</y>
+      <w>30</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>250</y>
+      <w>30</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>230</y>
+      <w>15</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>240</y>
+      <w>70</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;
+bg=RED
+fg=BLUE</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>305</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>320</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>340</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>310</y>
+      <w>15</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>265</x>
+      <y>320</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;
+fg=BLUE</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>175</y>
+      <w>15</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;370.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>170</y>
+      <w>40</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;60.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>185</y>
+      <w>40</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;60.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>215</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>240</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>285</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>315</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>350</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>505</x>
+      <y>190</y>
+      <w>20</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;560.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>255</x>
+      <y>175</y>
+      <w>265</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;
+fg=BLUE</panel_attributes>
+    <additional_attributes>510.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>225</y>
+      <w>30</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>485</x>
+      <y>260</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>285</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>315</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>350</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>390</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>430</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>460</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+fg=BLUE</panel_attributes>
+    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>400</x>
+      <y>100</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Username &amp; Password
+Verification
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>255</x>
+      <y>110</y>
+      <w>155</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;
+fg=BLUE</panel_attributes>
+    <additional_attributes>290.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+</diagram>
