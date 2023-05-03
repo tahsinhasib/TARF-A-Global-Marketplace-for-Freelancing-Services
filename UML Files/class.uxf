@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text/>
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>147</x>
+      <y>273</y>
+      <w>175</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Freelancer
+--
+- freelancer_id : int {by system}
+- rate : double
+- availability : boolean
+--
++ get_Name() : string
++ set_Rate(rate)
++ get_Rate() : double
++ set_Availability(availability : boolean)
++ get_Availability() : boolean
+
+fg=BLACK
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>392</x>
+      <y>28</y>
+      <w>168</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>User
+--
+# username : string
+# password : string
+# join_Date : string
+--
++ set_Username(username : string)
++ set_Password(password : string)
++ set_JoinDate(join_date : string)
++ get_Username() : string
++ get_JoinDate() : string
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>497</y>
+      <w>161</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Admin
+--
+- admin_id : int 
+- role : string
+--
++ generate_report()
++ update_user()
++ update_features()
+
+
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>252</x>
+      <y>455</y>
+      <w>175</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Bid
+--
+- bid_ID : int
+- project_ID : int
+- freelancer_ID : int
+- bid_amount : double
+- bid_status : string
+--
++ set_Bid(bid_amount : double)
++ withdraw_Bid(bid_amount : double)
++ accept_Bid(bid_ID : int)
++ reject_Bid(bid_ID : int)
++ show_Bid_Details()
+
+
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>532</x>
+      <y>273</y>
+      <w>168</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Client
+--
+- client_ID : int {by system}
+- budget : double
+- completed_projects : string[ ]
+--
++ set_Budget(budget)
++ get_Budget() : double
++ get_Completed_Projects() : string
++ view_Hired_Freelancers()
++ view_Reviews()
+
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>469</x>
+      <y>602</y>
+      <w>182</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Payments
+--
+- payment_id : int 
+- amount : double
+- payment_status : string
+--
++ set_Status(payment_status : string)
++ get_ID() : int
++ get_Amount() : double
++ get_Status() : string
++ view_Payments()
+
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>49</x>
+      <y>0</y>
+      <w>819</w>
+      <h>910</h>
+    </coordinates>
+    <panel_attributes>TARF (a global marketplace for freelancing services)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>182</y>
+      <w>560</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;780.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>469</x>
+      <y>140</y>
+      <w>21</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>749</x>
+      <y>189</y>
+      <w>21</w>
+      <h>322</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;440.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>595</x>
+      <y>189</y>
+      <w>21</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>189</y>
+      <w>21</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>371</y>
+      <w>231</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..1
+m2= *..1
+&lt; can hire</panel_attributes>
+    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>245</x>
+      <y>658</y>
+      <w>189</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>Projects
+--
+- project_id : int
+- client_id : int
+- skill_required : string
+- description : string
+- date_Posted : string
+- due_date : string 
+- status : string
+--
++ set_Status(status : string)
++ set_DatePosted(date_posted : string)
++ create_Projects(project_id : int ,
+                             skill_required : string)
++ view_Projects()
++ set_DueDate(due_date : string)
++ set_SkillRequired(skill-required : string)
+
+
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>161</x>
+      <y>399</y>
+      <w>105</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1..*
+sets amount &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0;130.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>322</x>
+      <y>588</y>
+      <w>56</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 0..*
+m2= 1..*
+bid on &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>399</y>
+      <w>175</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..1
+m2= 1..*
+&lt; accept or reject</panel_attributes>
+    <additional_attributes>10.0;170.0;180.0;170.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>595</x>
+      <y>399</y>
+      <w>77</w>
+      <h>217</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1..*
+m2= 1..*
+&lt; pay to
+  freelancers</panel_attributes>
+    <additional_attributes>10.0;290.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>63</x>
+      <y>336</y>
+      <w>560</w>
+      <h>539</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..1
+m2= 1..*
+                 receive payments &gt;</panel_attributes>
+    <additional_attributes>120.0;10.0;60.0;10.0;60.0;750.0;760.0;750.0;760.0;560.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>217</y>
+      <w>168</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>Review
+--
+- rating : int
+- comment : string
+- reviewer : string
+- date : string
+--
++ make_Review(comment : string)
++ get_Rating() : int
++ get_Comment() : string
++ get_Reviewer() : string
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>259</x>
+      <y>231</y>
+      <w>105</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=0..*
+check review &gt;</panel_attributes>
+    <additional_attributes>20.0;60.0;20.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>511</x>
+      <y>231</y>
+      <w>84</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..0
+m2= 1..*
+&lt; make review</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0;70.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>574</y>
+      <w>161</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..0
+m2= 1
+&lt; resolve issue</panel_attributes>
+    <additional_attributes>10.0;170.0;170.0;170.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>574</y>
+      <w>385</w>
+      <h>245</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..0
+m2= 1
+&lt; manage project data</panel_attributes>
+    <additional_attributes>10.0;320.0;520.0;320.0;520.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>161</y>
+      <w>301</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *..1
+m2= 1
+&lt; access to
+   Freelancer
+   and Client
+   data</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;330.0;10.0;330.0;480.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>98</y>
+      <w>126</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Skills
+--
+- skills : string[ ]
+- description : string
+--
++ set_skills(skills : string[ ])
++ get_skills() : string[ ]
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>105</x>
+      <y>126</y>
+      <w>77</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes>
+    <additional_attributes>60.0;250.0;10.0;250.0;10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>105</x>
+      <y>126</y>
+      <w>77</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1
+m2= 1..*
+</panel_attributes>
+    <additional_attributes>10.0;250.0;10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>399</y>
+      <w>175</w>
+      <h>329</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1..*
+m2= 1..*
+&lt; make projects</panel_attributes>
+    <additional_attributes>10.0;440.0;30.0;440.0;30.0;230.0;210.0;230.0;210.0;10.0</additional_attributes>
+  </element>
+</diagram>
