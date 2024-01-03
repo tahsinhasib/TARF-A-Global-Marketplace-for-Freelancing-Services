@@ -16,3 +16,18 @@ Overall, TARF offers a unique and innovative approach to freelancing by combinin
 
 
 
+<h3>Use case diagram</h3>
+
+<img src="screenshots/use case diagram.png">
+
+<h3>Class diagram</h3>
+
+<img src="screenshots/class diagram.png">
+
+<h3>Sequence diagram</h3>
+
+<img src="screenshots/sequence diagram.png">
+
+<h3>Activity diagram</h3>
+
+<img src="screenshots/activity diagram.png">
